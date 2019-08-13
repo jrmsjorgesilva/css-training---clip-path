@@ -1,0 +1,404 @@
+body {
+  background: lightblue;
+  margin: 0;
+  height: 100vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-flex-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-flex-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-flex-four {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-flex-five {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container .inner {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(0% 0% 100% 0%);
+          clip-path: inset(0% 0% 100% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container .inner:hover span {
+  color: transparent;
+}
+
+.container .inner h1 {
+  color: white;
+  margin: 0;
+}
+
+.container .inner p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container:hover .inner {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+
+.container-two {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-two .inner-two {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(100% 0% 0% 0%);
+          clip-path: inset(100% 0% 0% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-two .inner-two h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-two .inner-two p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-two:hover .inner-two {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+
+.container-three {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-three .inner-three {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: circle(10% at 0% 0%);
+          clip-path: circle(10% at 0% 0%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-three .inner-three h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-three .inner-three p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-three:hover .inner-three {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+}
+
+.container-four {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-four .inner-four {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: circle(10% at 50% 50%);
+          clip-path: circle(10% at 50% 50%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-four .inner-four h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-four .inner-four p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-four:hover .inner-four {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+}
+
+.container-five {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-five .inner-five {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(100% 0% 0% 0%);
+          clip-path: inset(100% 0% 0% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-five .inner-five h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-five .inner-five p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-five:hover .inner-five {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+
+.container-six {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-six .inner-six {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(100% 0% 0% 0%);
+          clip-path: inset(100% 0% 0% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-six .inner-six h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-six .inner-six p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-six:hover .inner-six {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+
+.container-seven {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-seven .inner-seven {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(100% 0% 0% 0%);
+          clip-path: inset(100% 0% 0% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-seven .inner-seven h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-seven .inner-seven p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-seven:hover .inner-seven {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+
+.container-eight {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-eight .inner-eight {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(100% 0% 0% 0%);
+          clip-path: inset(100% 0% 0% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-eight .inner-eight h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-eight .inner-eight p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-eight:hover .inner-eight {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+
+.container-nine {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-nine .inner-nine {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(100% 0% 0% 0%);
+          clip-path: inset(100% 0% 0% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-nine .inner-nine h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-nine .inner-nine p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-nine:hover .inner-nine {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+
+.container-ten {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container-ten .inner-ten {
+  background: aqua;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% 2em);
+  -webkit-clip-path: inset(100% 0% 0% 0%);
+          clip-path: inset(100% 0% 0% 0%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container-ten .inner-ten h1 {
+  color: white;
+  margin: 0;
+}
+
+.container-ten .inner-ten p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container-ten:hover .inner-ten {
+  -webkit-clip-path: inset(0% 0% 0% 0%);
+          clip-path: inset(0% 0% 0% 0%);
+}
+/*# sourceMappingURL=main.css.map */

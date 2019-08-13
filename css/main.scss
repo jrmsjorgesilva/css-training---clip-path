@@ -1,0 +1,553 @@
+// CSS EXERCISES ON THE YOUTUBE VIDEO BELOW
+// https://www.youtube.com/watch?v=F4kJXbaunUg&list=WL&index=2&t=725s
+
+
+body {
+    background: lightblue;
+    margin: 0;
+    height: 100vh;
+    // display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-flex-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-flex-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-flex-four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-flex-five {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(0% 0% 100% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        &:hover span {
+            color: transparent;
+        }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+
+// CONTAINER TWO
+
+.container-two {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-two {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(100% 0% 0% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-two {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+// CONTAINER THREE
+
+.container-three {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-three {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: circle(10% at 0% 0%);
+        transition: clip-path .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-three {
+        clip-path: circle(75%);
+    }
+}
+
+// CONTAINER FOUR
+
+.container-four {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-four {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: circle(10% at 50% 50%);
+        transition: clip-path .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-four {
+        clip-path: circle(75%);
+    }
+}
+
+// CONTAINER FIVE
+
+.container-five {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-five {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(100% 0% 0% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-five {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+//CONTAINER SIX
+
+.container-six {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-six {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(100% 0% 0% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-six {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+// CONTAINER SEVEN
+
+.container-seven {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-seven {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(100% 0% 0% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-seven {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+// CONTAINER EIGHT
+
+
+.container-eight {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-eight {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(100% 0% 0% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-eight {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+//CONTAINER NINE
+
+.container-nine {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-nine {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(100% 0% 0% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-nine {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+//CONTAINER TEN
+
+.container-ten {
+    width: 30%;
+    background: white;
+    border-radius: 10px;
+    
+    .inner-ten {
+        background: aqua;
+        padding: 1em;
+        border-radius: 10px;
+        width: calc(100% 2em);
+        // O PULO DO GATO:
+        clip-path: inset(100% 0% 0% 0%);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        // &:hover {
+        //     clip-path: circle(75%);
+        //     background: lightblue;
+        // }
+
+        // span {
+        //     float: right;
+        //     color: white;
+        //     font-weight: bold;
+        //     transition: color .5s;
+        //     position: relative;
+        //     margin-right: 4%;
+        // }
+
+        // &:hover span {
+        //     color: transparent;
+        // }
+
+        h1 {
+            color: white;
+            margin: 0;
+        }
+
+        p {
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner-ten {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
